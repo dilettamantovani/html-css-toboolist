@@ -7,3 +7,22 @@
 body {
     font-family: 'Inter', sans-serif;
 }
+
+#heading {
+    line-height: 40px;
+}
+
+#logo {
+    width: 40px;
+}
+
+#title {
+    display: inline-block;
+    vertical-align: 20%;
+    font-size: 28px;
+    font-weight: 700
+}
+
+main {
+    background-color: grey;
+}
