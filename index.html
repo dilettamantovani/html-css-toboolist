@@ -9,60 +9,76 @@
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;700;800&display=swap" rel="stylesheet">
         </head>
 
-
     <body>
+
         <!-- HEADING -->
-        <header id="heading">
+        <header>
             <img id="logo" src="img/logo copia.png" alt="Toboolist">
             <h1 id="title">Toboolist</h1>
         </header>
 
-
-
         <main>
-            <section>
+
+            <!-- CTA -->
+            <section id="buttons">
                 <button class="button" id="task-button">Add Task</button>
                 <button class="button" id="section-button">Add Section</button>
             </section>
-
-            <section>
-                <ul>entity New Task
+            
+            <!-- NEW -->
+            <section class="task">
+                <h4>&#9662;New Task</h2>
+                <ul>
                     <li>
-                        Quarterly Newsletter <span class="tag" id="blue">Editorial</span>
+                        <span class="check">&check;</span>
+                        Quarterly Newsletter
+                        <span class="tag" class="editorial">Editorial</span>
                     </li>
                 </ul>
             </section>
 
+            <!-- TDL -->
             <section>
-                <ul>entity Today
+                <h4>&#9662;Today</h4>
+                <ul>
                     <li>
-                        Recruiting blog post <span class="tag" id="blue">Editorial</span>
+                        <span class="check">&check;</span>
+                        Recruiting blog post <span class="tag" class="editorial">Editorial</span>
                     </li>
                     <li>
-                        Mobile app launch <span class="tag" id="violet">Q1 Goals</span>
+                        <span class="check">&check;</span>
+                        Mobile app launch <span class="tag" class="goals">Q1 Goals</span>
                     </li>
                     <li>
-                        Interview John H. <span class="tag" id="emerald-green">Recruiting</span>
+                        <span class="cross">&cross;</span>
+                        Interview John H. <span class="tag" class="recruit">Recruiting</span>
                     </li>
                     <li>
-                        Summit update to mobile storefronts <span class="tag" id="orange">Mobile</span>
+                        <span class="check">&check;</span>
+                        Summit update to mobile storefronts <span class="tag" class="mobile">Mobile</span>
                     </li>
                 </ul>
             </section>
 
+            <!-- NEXT -->
             <section>
-                <ul>entity Upcoming
+                <h4>&#9662;Upcoming</h4>
+                <ul>
                     <li>
+                        <span class="cross">&cross;</span>
                         Schedule meeting with Alex
                     </li>
                     <li>
-                        Homepage refresh <span class="tag" id="red">Website</span>
+                        <span class="check">&check;</span>
+                        Homepage refresh <span class="tag" class="website">Website</span>
                     </li>
                     <li>
-                        Onboard new Sales team members <span class="tag" id="green">Sales</span>
+                        <span class="check">&check;</span>
+                        Onboard new Sales team members <span class="tag" class="sales">Sales</span>
                     </li>
                     <li>
-                        Review editorial calendar <span class="tag" id="blue">Editorial</span>
+                        <span class="check">&check;</span>
+                        Review editorial calendar <span class="tag" class="editorial">Editorial</span>
                     </li>
                 </ul>
             </section>
