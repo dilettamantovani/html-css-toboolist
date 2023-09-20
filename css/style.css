@@ -28,12 +28,17 @@ main {
     padding: 30px 130px 10px; 
 }
 
-section{
+section {
     background-color: white;
 }
 
+#CTA {
+    margin-bottom: 2px;
+    border-radius: 6px 6px 0px 0px;
+}
+
 .button {
-    padding: 8px;
+    padding: 6px;
     border-radius: 6px;
     font-weight: bold;
     font-size: 10px;
@@ -45,3 +50,86 @@ section{
     border: none;
     margin: 15px 0 10px 50px;
 }
+
+#section-button {
+    background-color: white;
+    color: lightgray;
+    border: 2px solid lightgray;
+}
+
+#to-do {
+    border-radius: 0px 0px 6px 6px;
+    padding: 20px 0 20px 0;
+}
+
+h4 {
+    padding-left: 35px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+.check, .cross {
+    border: 2px solid;
+    padding: 2px;
+    border-radius: 50%;
+    font-size: x-small;
+    font-weight: bold;
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+}
+
+.check {
+    border-color: #5bb8a2;
+    color: #5bb8a2;
+}
+
+.cross {
+    border-color: red;
+    color: red;
+}
+
+.tag {
+    color: white;
+    border-radius: 8px;
+    font-size: x-small;
+    font-weight: 600;
+    padding: 3px;
+}
+
+.editorial {
+    background-color: #47A9E8;
+}
+
+.goals {
+    background-color: #9C72E3;
+}
+
+.recruit {
+    background-color: #63BEA9;
+}
+
+.mobile {
+    background-color: #F39C34;
+}
+
+.website {
+    background-color: #D563A0;
+}
+
+.sales {
+    background-color: #B1C729;
+}
+
+
+
+
+
+
