@@ -2,27 +2,46 @@
     margin: 0;
     border: 0;
     box-sizing: border-box;
-}
-
-body {
     font-family: 'Inter', sans-serif;
 }
 
-#heading {
-    line-height: 40px;
+header {
+    line-height: 20px;
+    margin-left: 13px;
+    padding: 6px 0 4px 0;
 }
 
 #logo {
     width: 40px;
+    vertical-align: middle;
 }
 
 #title {
     display: inline-block;
-    vertical-align: 20%;
+    vertical-align: middle;
     font-size: 28px;
     font-weight: 700
 }
 
 main {
-    background-color: grey;
+    background-color: rgb(245, 245, 245);
+    padding: 30px 130px 10px; 
+}
+
+section{
+    background-color: white;
+}
+
+.button {
+    padding: 8px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+#task-button {
+    background-color: #47A9E8;
+    color: white;
+    border: none;
+    margin: 15px 0 10px 50px;
 }
